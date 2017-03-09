@@ -4,7 +4,7 @@ node_js:
   - '0.10'
   - '0.12'
 install:
-  - export DISPLAY=:99.0
+  - export DISPLAY=:99.1
   - sh -e /etc/init.d/xvfb start
   - npm i -g jshint
   - npm install
